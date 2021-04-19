@@ -8,7 +8,7 @@ import java.util.UUID;
 /**
  * Created by jt on 2019-04-20.
  */
-@Service
+@Service  //for spring context
 public class BeerServiceImpl implements BeerService {
     @Override
     public BeerDto getBeerById(UUID beerId) {
